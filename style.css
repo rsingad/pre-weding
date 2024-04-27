@@ -1,0 +1,2523 @@
+:root {
+  --LIGHT: #fff5c2;
+  --MIDLIGHT: #f4f27e;
+  --MIDSKY: #6db9ef;
+  --SKY: #3081d0;
+  --LIME: rgb(80, 237, 49);
+  --TEXTBLACK: black;
+  --TEXTWHITE: white;
+  --darkgreen: #114232;
+  --lightgreen: #87a922;
+  --lightyellow: #fcdc2a;
+  --milkywhite: #f7f6bb;
+  --imgborder: #3a7d30;
+  --praColor: gray;
+  /* --meetContentColor:rgb(124, 15, 82); */
+  --meetContentColor: rgb(156, 74, 77);
+  --greetingBGcolor: rgba(217, 217, 217, 0.199);
+  --sweatmassageboxcolor: rgb(225, 225, 225);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+.TildFamily {
+  font-family: "Rochester", cursive;
+}
+main {
+  width: 100%;
+  position: relative;
+
+  /* background-color: var(--blue); */
+  /* background-color: var(--milkywhite); */
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  margin: 0% auto;
+  padding: 20px 0px;
+  /* background-color: rgba(255, 105, 180, 0.39); */
+  z-index: 1000;
+  color: var(--milkywhite);
+}
+.headersize {
+  min-width: 1024px;
+  width: 100%;
+  max-width: 1080px;
+  /* background-color: lime; */
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+}
+nav {
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  padding: 0% 10px;
+  text-align: center;
+  color: var(--milkywhite);
+}
+.menu {
+  display: none;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: var(--milkywhite);
+}
+/* header end */
+/* section 1 home start */
+.homePage {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(
+      30deg,
+      var(--lightgreen),
+      rgba(0, 255, 0, 0.132)
+    ),
+    url(img/Punjabi\ Wedding6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  /* position: relative; */
+}
+/* .homePage::before{
+  position: absolute;
+  top:0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--MIDSKY);
+  z-index: 100;
+} */
+.homePageSize {
+  min-width: 1024px;
+  max-width: 1080px;
+  /* height: fit-content; */
+  min-height: 200px;
+  max-height: 900px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /* background-color: rgba(0, 255, 0, 0.644); */
+  margin: 0px auto;
+  display: grid;
+  align-items: end;
+  justify-content: center;
+  /* text-align: center; */
+  /* padding: 10% 0px; */
+}
+.homePageCenter {
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+.homePageRingImg {
+  width: 140px;
+  height: 140px;
+  padding: 20px;
+  margin: auto;
+  background-color: var(--LIME);
+  border-radius: 50%;
+}
+.homePageRingImg img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  /* height: 100px; */
+  border-radius: 50%;
+  border: 1px dotted var(--LIGHT);
+}
+.LOVERS {
+  font-size: 6rem;
+  color: var(--milkywhite);
+}
+.homePageCenter > p > span {
+  padding: 3px;
+  background-color: var(--milkywhite);
+  letter-spacing: 4px;
+  color: var(--lightgreen);
+}
+/* section2 --start */
+.remaining {
+  width: 100%;
+  /* background-color: var(--milkywhite); */
+  position: relative;
+}
+.remainingSize {
+  min-width: 1024px;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 50px;
+  position: relative;
+  margin-top: -50px;
+}
+.timebox {
+  /* width: 100%; */
+  /* height: 100%; */
+  background-color: var(--LIME);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: -50px;
+  z-index: 200;
+  position: relative;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.525),
+    -2px -2px 10px 5px rgba(255, 255, 255, 0.315);
+}
+.timebox::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 1px dashed var(--TEXTWHITE);
+  border-radius: 0px 5px 5px 0px;
+}
+.timeBoxHeading {
+  background-color: var(--MIDLIGHT) !important;
+  color: var(--lightgreen) !important;
+}
+.timebox > div {
+  width: 100%;
+  height: 100%;
+  /* background-color: hotpink; */
+  color: var(--milkywhite);
+}
+.timebox > div > div {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.timebox > div > div ~ span {
+  letter-spacing: 2px;
+}
+/* section 3 groom&bride page------------ */
+.GroomAndBridePage {
+  width: 100%;
+  /* background-color: var(--milkywhite); */
+}
+.GroomAndBridePageSize {
+  min-width: 1024px;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0px auto;
+  /* background-color: red; */
+}
+.GBheader {
+  width: 100%;
+  /* background-color: aqua; */
+  text-align: center;
+  padding: 50px 0px;
+  color: var(--LIME);
+}
+.GBheader > h3 > span {
+  border: 1px dashed var(--LIME);
+  padding: 3px 4px;
+  letter-spacing: 1px;
+}
+.GBheader > h1 {
+  font-size: 5rem;
+  font-weight: 500;
+}
+.loversbio {
+  display: grid;
+  /* padding: 30px; */
+}
+.GROOM,
+.bride {
+  width: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  padding: 30px 0px;
+  /* justify-content: end; */
+  /* align-items: center; */
+  /* overflow: hidden; */
+}
+.brideBioBox {
+  padding: 0px 50px 0px 100px;
+  text-align: end;
+}
+.groomBioBox {
+  padding: 0px 100px 0px 50px;
+  text-align: start;
+}
+.groomBioBox > div,
+.brideBioBox > div {
+  height: 100%;
+  position: relative;
+  /* margin: auto; */
+  /* background-color: blueviolet; */
+}
+.groomBioBox > div > div,
+.brideBioBox > div > div {
+  display: grid;
+  align-items: center;
+  height: 100%;
+  vertical-align: middle;
+  /* margin: auto; */
+  /* background-color: yellow; */
+}
+.groomname,
+.bridename {
+  font-size: 3rem;
+  color: var(--LIME);
+}
+.pra {
+  padding-top: 20px;
+  line-height: 24px;
+  color: var(--praColor);
+}
+.iconImg {
+  position: absolute;
+  /* background-color: rgba(64, 224, 208, 0.952); */
+  bottom: 0;
+  right: 0;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* overflow: hidden; */
+}
+.iconImg2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.iconImg2 > img,
+.iconImg img {
+  width: 100px;
+  height: 100px;
+}
+.groomImg,
+.brideImg {
+  width: 420px;
+  height: 410px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: var(--imgborder);
+  /* border: 20px soild hotpink; */
+}
+.groomImg > img,
+.brideImg > img {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  /* border: 20px soild hotpink; */
+}
+/* //////section4 ourStory Page---------------- */
+.ourStory {
+  width: 100%;
+  height: auto;
+  /* background-color: lime; */
+  background-image: url(img/stry.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overStorySize {
+  margin: auto;
+  max-width: 1080px;
+  min-width: 1024px;
+  width: 100%;
+  padding: 0px 20px; /*add new*/
+  /* background-color: lime; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+/* start------box - */
+.timelineHistory {
+  width: 100%;
+  padding: 100px 0px;
+  /* background-color: brown; */
+}
+.timelineHistory > div,
+.story1 {
+  width: 100%;
+  /* background-color: lime; */
+  /* margin-top: 20px; */
+  display: inline-block;
+}
+.timelineHistory > div > div,
+.story1 .firstmeet {
+  width: 55.5%;
+  margin-top: -46px;
+  /* background-color: red; */
+  /*float:;*/ /*#############*/
+  display: inline;
+
+  & .roundImg {
+    /* background-image: url("img/asset 4.jpeg"); */
+    padding: 10px;
+    width: 20%;
+    /* float:; */ /* ##############*/
+    & .imgSmallbox {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+      z-index: 100;
+      & img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    & .imgSmallbox::after {
+      content: "";
+      position: absolute;
+
+      left: 10px;
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+      border: 1px dashed white;
+      border-radius: 50%;
+      /* background-color: lime; */
+      z-index: 10;
+    }
+  }
+  & .firstmeetContent {
+    background: var(--imgborder);
+    padding: 50px;
+    width: 80%;
+    position: relative;
+
+    & h3 {
+      /* color: white; */
+      color: var(--TEXTWHITE);
+      letter-spacing: 2px;
+    }
+    & h2 {
+      font-size: 3rem;
+      color: var(--TEXTWHITE);
+      font-weight: 500;
+      padding: 10px 0px;
+    }
+    & p {
+      color: var(--praColor);
+      line-height: 30px;
+    }
+  }
+  & .firstmeetContent::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    /* background-color: lime; */
+    border: 1.5px dashed white;
+    transform: rotate(1deg);
+  }
+  & .firstmeetContent::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    /* background-color: lime; */
+    border: 1.5px dashed white;
+    transform: rotate(-1deg);
+  }
+}
+.story3 .firstmeet .firstmeetContent .iconImgInFirstmeetContent,
+.story1 .firstmeet .firstmeetContent .iconImgInFirstmeetContent {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+.story4 .firstmeet .firstmeetContent .iconImgInFirstmeetContent,
+.story2 .firstmeet .firstmeetContent .iconImgInFirstmeetContent {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+.story4 .firstmeet .firstmeetContent .iconImgInFirstmeetContent img,
+.story3 .firstmeet .firstmeetContent .iconImgInFirstmeetContent img,
+.story2 .firstmeet .firstmeetContent .iconImgInFirstmeetContent img,
+.story1 .firstmeet .firstmeetContent .iconImgInFirstmeetContent img {
+  width: 150px;
+  height: 150px;
+  /* opacity: 0.5; */
+}
+.empty {
+  width: 40%;
+  /* float: left; */ /*#######*/
+  /* background-color: hotpink; */
+  /* height: 400px; */
+}
+.FloatRight {
+  float: right;
+}
+.FloatLeft {
+  float: left;
+}
+.ContentRight {
+  text-align: right;
+}
+/* ////section GREETINGS     start**********    ****** */
+.GREETINGS {
+  width: 100%;
+  background-color: var(--greetingBGcolor);
+}
+.GREETINGSize {
+  margin: auto;
+  min-width: 1024px;
+  width: 100%;
+  max-width: 1080px;
+  /* overflow: hidden; */
+  padding: 20px 0px 120px 0px;
+}
+
+/* 
+swiper code
+.greetingSwper {
+  display: flex;
+  padding: 30px 0px 0px 0px;
+  justify-content: space-between;
+  
+  overflow-x: scroll;
+  
+}
+.greetingSwper > div {
+  width: 100%;
+  margin-left: 50px;
+  background-color: lime;
+  padding: 30px;
+  position: relative;
+}
+
+.sender{
+  width: 100%;
+  background-color: red;
+  padding: 20px 0px;
+  display: flex;
+
+}
+.senderimg{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  background-color: rgb(163, 67, 115);
+  & img{
+    width: 100%;
+    height: 100%;
+  }
+}
+.ditels{
+  padding: 20px 20px;
+  display: grid;
+  align-items: end;
+}
+.iconimgONMassagebox{
+  position: absolute;
+  top: -25px;
+  left: 25px;
+  & img{
+    width: 50px;
+    height: 50px;
+    background-color: hotpink;
+    border-radius: 50%;
+  }
+} */
+.greetingSwper {
+  display: flex;
+  /* padding: 30px 0px 0px 0px; */
+  justify-content: space-between;
+}
+.greetingSwper > div {
+  width: 100%;
+  margin: 0px 20px;
+  background-color: var(--sweatmassageboxcolor);
+  padding: 30px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 10px 1px rgb(0, 0, 0);
+}
+.greetingSwper > div:hover {
+  /* box-shadow:none; */
+  transform: scale(1.1);
+}
+.sender {
+  width: 100%;
+  /* background-color: red; */
+  padding: 20px 0px;
+  display: flex;
+}
+.senderimg {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  background-color: var(--lightgreen);
+  /* box-shadow: inset 2px 2px 10px 1px var(--lightgreen); */
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.ditels {
+  padding: 20px 20px;
+  display: grid;
+  align-items: end;
+}
+.greetingSwper > div:hover .iconimgONMassagebox {
+  animation-name: moveicon;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes moveicon {
+  0% {
+    top: -25px;
+    left: 25px;
+    /* bottom: 0; */
+    /* right: 0; */
+  }
+  25% {
+    top: -25px;
+    left: calc(100% - 25px);
+    /* bottom: 0; */
+    /* right: 25px; */
+  }
+  50% {
+    /* top: -25px; */
+    /* left: 25px; */
+    top: calc(100% - 25px);
+    left: calc(100% - 25px);
+  }
+  75% {
+    top: calc(100% - 25px);
+    left: -25px;
+    /* bottom: -25px; */
+    /* right: 0; */
+  }
+  95% {
+    top: -25px;
+    left: -25px;
+  }
+  100% {
+    top: -25px;
+    left: 25px;
+    /* bottom: 0; */
+    /* right: 0; */
+  }
+}
+.iconimgONMassagebox {
+  position: absolute;
+  top: -25px;
+  left: 25px;
+  bottom: 0;
+  right: 0;
+
+  /* padding: 1; */
+  & img {
+    width: 50px;
+    height: 50px;
+    background-color: var(--LIME);
+    box-shadow: inset 2px 2px 20px 2px black;
+    border-radius: 50%;
+    padding: 5px;
+  }
+}
+.BRIDESMAIDGROOMSMEN {
+  width: 100%;
+}
+.BRIDESMAIDGROOMSMENsize {
+  max-width: 1080px;
+  min-width: 1024px;
+  width: 100%;
+  margin: auto;
+  padding: 50px 0px;
+}
+.familyimges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.familyimges > div {
+  width: 30%;
+  padding: 30px 0px;
+  text-align: center;
+}
+.familyimges > div > img {
+  width: 100%;
+  border: 10px solid var(--imgborder);
+}
+.familyimges > div > h3 {
+  /* background-color: red; */
+  font-size: 2rem;
+  font-weight: 500;
+}
+.familyimges > div > h6 {
+  padding: 10px 0px;
+  font-size: 1rem;
+  color: var(--MIDLIGHT);
+}
+
+/* ******* When And Hare section****************/
+.WhenAndHare {
+  width: 100%;
+  background: var(--greetingBGcolor);
+  padding: 100px 0px;
+}
+.WhenAndHareSize {
+  /* background-color: lime; */
+  margin: auto;
+  min-width: 1024px;
+  max-width: 1080px;
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+}
+.WhenAndHareSize .location {
+  width: 40%;
+  /* background-color: blue; */
+}
+.WhenAndHareSize .planning {
+  width: 60%;
+  /* background-color: yellow; */
+  padding: 0px 0px 100px 0px;
+}
+.planningFunctionBox {
+  display: flex;
+  text-align: center;
+  padding: 0px 0px;
+}
+.planningFunctionBox > div {
+  padding: 0px 40px;
+}
+.planningFunctionBox > div > h1 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+.planningFunctionBox > div > p {
+  padding: 15px 0px;
+  line-height: 1.8;
+  color: gray;
+}
+.planningFunctionBox > div > pre {
+  color: var(--LIME);
+  padding: 10px 0px 30px 0px;
+}
+.planningFunctionBox > div > a {
+  padding: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid var(--LIME);
+  color: var(--LIME);
+}
+/* *************RSVP---section--------starttttt**********/
+.RSVP {
+  width: 100%;
+  /* max-height:auto; */
+  /* height: 100vh; */
+  background-image: url(img/asset\ 19.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  /* overflow: scroll; */
+}
+/* .RSVP::-webkit-scrollbar {
+  display: none;
+} */
+.RSVPsize {
+  /* background-color: lime; */
+  margin: auto;
+  min-width: 1024px;
+  max-width: 1080px;
+  width: 100%;
+  padding: 0px 20px 100px 20px;
+  /* display: flex; */
+  /* width: 100%;
+  height: 100%;
+  max-width: 1080px;
+  min-width: 1024px;
+  padding: 10px 20px 100px 20px;
+  margin: auto; */
+  /* background-color: rgba(0, 0, 255, 0.342); */
+}
+.RSVP > .RSVPsize > .GBheader {
+  text-align: left;
+}
+form {
+  width: 40%;
+  /* background-color: red; */
+  display: grid;
+}
+select,
+textarea,
+input {
+  background: none;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-weight: 600;
+  font-size: 1rem;
+}
+select:focus,
+textarea:focus,
+input:focus {
+  border-bottom: 2px solid black;
+  outline: none;
+}
+form > button {
+  border: none;
+  margin-top: 50px;
+  width: fit-content;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+}
+form > button > a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 1rem;
+  font-weight: 600;
+}
+form > button:focus {
+  outline: 5px solid var(--LIME);
+}
+
+.gallery {
+  width: 100%;
+}
+.galleryimages {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallIMG1 {
+  background-image: url("img/asset\ 20.jpeg");
+}
+.gallIMG2 {
+  background-image: url("img/asset\ 21.jpeg");
+}
+.gallIMG3 {
+  background-image: url("img/asset\ 22.jpeg");
+}
+.gallIMG4 {
+  background-image: url("img/asset\ 23.jpeg");
+}
+.gallIMG5 {
+  background-image: url("img/asset\ 24.jpeg");
+}
+.gallIMG6 {
+  background-image: url("img/asset\ 25.jpeg");
+}
+.gallIMG7 {
+  background-image: url("img/asset\ 26.jpeg");
+}
+.gallIMG8 {
+  background-image: url("img/asset\ 27.jpeg");
+}
+.galleryimages > div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
+  position: relative;
+  width: 25%;
+  height: 350px;
+  overflow: hidden;
+}
+.galleryimages > div > div {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 255, 0, 0.406);
+  & .gallIconBG {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    & img {
+      width: 100%;
+      height: 100%;
+
+      border-radius: 50%;
+    }
+  }
+}
+.galleryimages > div:hover > div {
+  opacity: 1;
+  transition: 1s;
+}
+/* footerrrrrrrrr */
+footer {
+  width: 100%;
+  padding: 10px 0px 100px 0px;
+}
+.footerSize {
+  width: 100%;
+  max-width: 1080px;
+  min-width: 1024px;
+  margin: auto;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--footerColor);
+}
+.footerSize > div {
+  /* padding: 50px; */
+  width: 25%;
+  padding: 0px 20px 0px 10px;
+  line-height: 2;
+}
+
+.icons {
+  display: flex;
+  /* align-items: center; */
+}
+.icons div {
+  background-color: #b1c381;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+}
+.icons > div:hover {
+  background-color: var(--TEXTBLACK);
+}
+.icons div:hover > i {
+  color: var(--LIME);
+  /* text-shadow: 0px 0px 12px rgb(216, 194, 3); */
+}
+.footerSize > div > h2 {
+  padding: 20px 0px;
+}
+.SERVICES > li,
+.LINKS > li {
+  list-style: none;
+}
+.SERVICES > li::before,
+.LINKS > li::before {
+  content: "✔";
+  padding: 0px 10px 0px 0px;
+}
+/* .HAVE_A_QUESTIONS .locationIcon::before{
+  content: "\f3c5";
+  font-family: "Font Awesome 5 Free";
+} */
+.HAVE_A_QUESTIONS > div {
+  display: flex;
+  align-items: center;
+}
+.HAVE_A_QUESTIONS > div > i {
+  /* margin: auto 0; */
+  padding: 15px;
+  align-self: baseline;
+}
+footer > em {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  header {
+    /* width: 100%; */
+    min-width: 100%;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: rgb(0, 247, 255);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .headersize {
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav {
+    display: flex;
+  }
+  nav a {
+    text-decoration: none;
+    padding: 0% 10px;
+    text-align: center;
+  }
+  .menu {
+    display: none;
+  }
+  .homePageSize {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  /* section 2 start */
+
+  .remainingSize {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .timebox {
+    background-color: rgb(132, 24, 24);
+  }
+  .timeBoxHeading {
+    background-color: lime !important;
+    color: rgb(132, 24, 24) !important;
+  }
+  .timebox > div {
+    background-color: rgb(132, 24, 24);
+  }
+  .timebox > div > div {
+    font-size: 2.5rem;
+  }
+  /* section 3 groom&bride page------------ */
+  .GroomAndBridePage {
+    width: 100%;
+    /* background-color: lightslategrey; */
+  }
+  .GroomAndBridePageSize {
+    min-width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    width: 100%; /*change*/
+    margin: none; /*change*/
+    padding: 10px 20px; /*add*/
+    /* background-color: red; */
+  }
+  .GBheader {
+    width: 100%;
+    /* background-color: aqua; */
+  }
+  /* //////section4 ourStory Page---------------- */
+  /* //////section4 ourStory Page---------------- */
+  .overStorySize {
+    min-width: 100%; /* change*/
+    width: 100%; /* change*/
+    max-width: 100%; /* change*/
+  }
+  /* new section gretting************************ */
+
+  .GREETINGSize {
+    min-width: 100%; /*change*/
+    width: 100%; /*change*/
+    max-width: 100%; /*change*/
+  }
+  .BRIDESMAIDGROOMSMENsize {
+    max-width: 100%; /*change*/
+    min-width: 100%; /*change*/
+    width: 100%; /*change*/
+    /* padding: 0px 0px; adddd */
+  }
+  /* when whare section  ************start  */
+
+  .WhenAndHareSize {
+    min-width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    width: 100%;
+  }
+  .RSVPsize {
+    width: 100%;
+    height: 100%;
+    max-width: 100%; /*change*/
+    min-width: 100%; /*change*/
+    padding: 10px 20px 100px 20px;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: rgba(0, 0, 255, 0.342); */
+  }
+
+  /* foooooooooooooooooooooooterrrrrrrrrrrrrrrrrrrr */
+  .footerSize {
+    width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    min-width: 100%; /*change*/
+  }
+}
+/* ********************************************************************************************************************** */
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  header {
+    /* width: 100%; */
+    /* min-width: 100%; */
+    /* width: 100%; */
+    padding: 20px 20px;
+    background:linear-gradient(170deg,rgb(101, 15, 15),rgba(12, 118, 12, 0.889));
+    /* box-shadow: inset 0px 0px 5px 1px rgb(42, 41, 41); */
+    backdrop-filter: blur(150px);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0; */
+  }
+  .headersize {
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  nav {
+    display: flex;
+    display: none;
+  }
+  nav a {
+    text-decoration: none;
+    padding: 0% 10px;
+    text-align: center;
+  }
+  .menu {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+  }
+  /* home page start 786-992 */
+  .homePageSize {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .LOVERS {
+    font-size: 5rem;
+  }
+  /* section 2 start */
+  .remainingSize {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    /* position: relative */
+  }
+  .timebox {
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: rgb(131, 32, 32);
+  }
+  .timeBoxHeading {
+    background-color: lime !important;
+  }
+
+  .timebox > div > div {
+    font-size: 2.5rem; /*change*/
+  }
+  /* section 3 groom&bride page------------ */
+  .GroomAndBridePageSize {
+    min-width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    width: 100%; /*change*/
+    padding: 10px 20px; /*change*/
+    /* margin: 0px auto; */
+    /* background-color: red; */
+  }
+
+  /* //////section4 ourStory Page---------------- */
+  .overStorySize {
+    min-width: 100%; /* change*/
+    width: 100%; /* change*/
+    max-width: 100%; /* change*/
+  }
+  .firstmeetContent .HistoryHeading {
+    font-size: 2.6rem !important; /*change*/
+  }
+  .firstmeetContent .datE {
+    font-size: 0.9rem; /*add*/
+  }
+  /* //////////////////////////////////////////////////// */
+
+  .GREETINGSize {
+    min-width: 100%; /*change*/
+    width: 100%; /*change*/
+    max-width: 100%; /*change*/
+  }
+  .greetingSwper {
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+  }
+  .greetingSwper > div {
+    width: 30%;
+    margin: 0px 0px; /*change*/
+    /* background-color: white; */
+  }
+  .sender {
+    width: 100%;
+
+    padding: 10px 0px; /*change*/
+  }
+  .senderimg {
+    width: 85px; /*change*/
+    height: 85px; /*chnage*/
+
+    background-color: rgb(96, 163, 67);
+  }
+  .ditels {
+    padding: 10px 10px; /*change*/
+  }
+  
+  .BRIDESMAIDGROOMSMENsize {
+    max-width: 100%; /*change*/
+    min-width: 100%; /*change*/
+    width: 100%; /*change*/
+  
+    padding: 0px 20px; /*adddd*/
+  }
+  /* /////////////when and whare section   starttttttttttt */
+  /* ******* When And Hare section****************/
+  .WhenAndHareSize {
+    min-width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    width: 100%;
+  }
+  .planning .GBheader h1 {
+    font-size: 3.2rem; /*add*/
+  }
+  .planningFunctionBox > div {
+    padding: 0px 15px; /*change*/
+  }
+  .planningFunctionBox > div > h1 {
+    
+    font-size: 1.6rem; /*change*/
+  }
+  .planningFunctionBox > div > p {
+    
+    line-height: 1.8;
+  }
+  .RSVPsize {
+    width: 100%;
+    height: 100%;
+    max-width: 100%; /*change*/
+    min-width: 100%; /*change*/
+  }
+  .galleryimages > div {
+    width: 50%;
+  }
+  /* footeroooooooooooooooooooooooooooo start */
+  .footerSize {
+    width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    min-width: 100%; /*change*/
+  }
+}
+/* -------------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  header {
+    /* width: 100%; */
+    min-width: 100%;
+    width: 100%;
+    padding: 20px 20px;
+    /* background-color: rgb(255, 0, 136); */
+    background-color: rgb(119, 16, 16);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    /* width: 100%; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* margin: 0; */
+  }
+  .headersize {
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    /* display: flex;
+    justify-content: space-between;
+    font-size: 20px; */
+  }
+  nav {
+    display: flex;
+    display: none;
+  }
+  nav a {
+    text-decoration: none;
+    padding: 0% 10px;
+    text-align: center;
+  }
+  .menu {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+  }
+  /* section home 576 -768 */
+  .homePageSize {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .homePageRingImg {
+    /* width: 140px; */
+    /* height: 140px; */
+    /* padding: 20px; */
+    /* margin: auto; */
+    /* background-color: rgb(128, 0, 255); */
+    /* border-radius: 50%; */
+  }
+  .homePageRingImg img {
+    /* width: 100px; */
+    /* height: 100px; */
+    /* padding: 10px; */
+    /* height: 100px; */
+    /* border-radius: 50%; */
+    /* border: 1px dotted white; */
+  }
+  .LOVERS {
+    font-size: 3.5rem;
+  }
+  .homePageCenter > p > span {
+    padding: 3px;
+    background-color: white;  
+    /* letter-spacing: 4px; */
+  }
+  /* section 2 start */
+  .remaining {
+    width: 100%; /*change*/
+    /* background-color: red; */
+    /* position: relative; */
+  }
+  .remainingSize {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    /* margin: 0px auto;
+    margin-top: -50px;
+    padding: 50px; */
+    /* position: relative */
+  }
+  .timebox {
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: rgb(119, 16, 16);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: -50px;
+    z-index: 200;
+    position: relative;
+    border-radius: 0px 5px 5px 0px;
+  }
+  .timebox::before {
+    /* content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px; */
+    /* background-color: red; */
+    /* border: 1px dashed white;
+    border-radius: 0px 5px 5px 0px; */
+  }
+  .timeBoxHeading {
+    background-color: lime !important;
+  }
+  .timebox > div {
+    /* width: 100%; */
+    /* height: 100%; */
+    /* background-color: hotpink; */
+  }
+  .timebox > div > div {
+    font-size: 2rem; /*change*/
+    /* font-weight: 600; */
+  }
+  .timebox > div > div ~ span {
+    /* letter-spacing: 2px;  */
+  }
+  /* section 3 groom&bride page------------ */
+  .GroomAndBridePage {
+    width: 100%;
+    /* background-color: lightsl  ategrey; */
+  }
+  .GroomAndBridePageSize {
+    min-width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    width: 100%;
+    margin: none; /*change*/
+    /* background-color: red; */
+    padding: 10px 20px; /*add*/
+  }
+  .GBheader {
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+    padding: 50px 0px;
+    /* color: hotpink; */
+  }
+  .GBheader > h3 > span {
+    border: 1px dashed hotpink;
+    padding: 3px 4px;
+    letter-spacing: 1px;
+  }
+  .GBheader > h1 {
+    font-size: 3.5rem; /*change*/
+    font-weight: 500;
+  }
+  .loversbio {
+    display: grid; /*change*/
+    /* padding: 30px; */
+  }
+  .GROOM,
+  .bride {
+    width: 100%;
+    /* background-color: yellow; */
+    display: grid;
+    padding: 30px 0px;
+    position: relative; /*add*/
+    /* justify-content: end; */
+    /* align-items: center; */
+    /* overflow: hidden; */
+  }
+  .brideBioBox {
+    padding: 0px 0px 0px 0px; /*change*/
+    text-align: center; /*change*/
+    /*float:right ;*/ /*add*/
+  }
+  .groomBioBox {
+    padding: 0px 0px 0px 0px; /*change*/
+    text-align: center;
+  }
+  .groomBioBox > div,
+  .brideBioBox > div {
+    height: 100%;
+    position: relative;
+    /* float: top; */
+    /* background-color: blueviolet; */
+    order: 1;
+    padding: 0;
+  }
+  .groomBioBox > div > div,
+  .brideBioBox > div > div {
+    display: grid;
+    padding: 30px 0px;
+    align-items: center;
+    height: 100%;
+    vertical-align: middle;
+    /* margin: auto; */
+    /* background-color: yellow; */
+  }
+  .groomname,
+  .bridename {
+    font-size: 2.5rem;
+  }
+  .pra {
+    padding-top: 20px;
+    line-height: 24px;
+  }
+  .iconImg {
+    position: relative;
+    /* background-color: rgba(64, 224, 208, 0.952); */
+    bottom: 0;
+    right: 0;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* overflow: hidden; */
+  }
+  .iconImg2 {
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+  .iconImg2 > img,
+  .iconImg img {
+    width: 100px;
+    height: 100px;
+  }
+  .groomImg,
+  .brideImg {
+    order: 3;
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: hotpink; */
+    /* border: 20px soild hotpink; */
+  }
+  .groomImg > img,
+  .brideImg > img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    /* border: 20px soild hotpink; */
+  }
+  /* //////section4 ourStory Page---------------- */
+  .overStorySize {
+    margin: auto;
+    min-width: 100%; /*change*/
+    width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    /* background-color: lime; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+  }
+  /* start------box - */
+  .timelineHistory {
+    width: 100%;
+    padding: 50px 0px; /*change*/
+    /* background-color: brown; */
+  }
+  .timelineHistory > div,
+  .story1 {
+    width: 100%;
+    /* background-color: lime; */
+    /* margin-top: 20px; */
+    display: inline-block;
+  }
+  .timelineHistory > div > div,
+  .story1 .firstmeet {
+    width: 100%; /*chnage*/
+    margin-top: 0; /*change*/
+    /* background-color: red; */
+    /*float:;*/ /*#############*/
+    display: inline;
+
+    & .roundImg {
+      /* background-image: url("img/asset 4.jpeg"); */
+      padding: 10px;
+      width: 20%;
+      /* float:; */ /* ##############*/
+      & .imgSmallbox {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        & img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      & .imgSmallbox::after {
+        content: "";
+        position: absolute;
+
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        bottom: 10px;
+        border: 1px dashed white;
+        border-radius: 50%;
+        /* background-color: lime; */
+        z-index: 10;
+      }
+    }
+    & .firstmeetContent {
+      /* background-color: rgba(255, 255, 255, 0.233); */
+      background-color: transparent;
+      margin-top: 20px;
+      backdrop-filter: blur(7px);
+      
+      box-shadow:inset  0px 0px 100px 1px rgba(68, 255, 0, 0.565),1px 1px 20px 2px black;
+      /* border-radius: 10px; */
+      padding: 50px;
+      width: 80%;
+      position: relative;
+
+      & h3 {
+        letter-spacing: 2px;
+        color: rgb(132, 18, 18);
+      }
+      & h2 {
+        font-size: 3rem;
+        color: rgb(232, 159, 25);
+        font-weight: 500;
+        padding: 10px 0px;
+      }
+      & p {
+        color: rgba(253, 253, 253, 0.995);
+        line-height: 30px;
+      }
+    }
+    & .firstmeetContent::before {
+      /* content: "";
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      bottom: 20px; */
+      /* background-color: lime; */
+      /* border: 1.5px dashed white;
+      transform: rotate(1deg); */
+    }
+    & .firstmeetContent::after {
+      content: "";
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      bottom: 20px;
+      /* background-color: lime; */
+      border: 1.5px dashed white;
+      transform: rotate(-1deg);
+    }
+  }
+  .story3 .firstmeet .firstmeetContent .iconImgInFirstmeetContent,
+  .story1 .firstmeet .firstmeetContent .iconImgInFirstmeetContent {
+    position: absolute;
+    top: 0px;
+    right: 20px; /*add*/
+    left: auto; /*change*/
+  }
+  .story4 .firstmeet .firstmeetContent .iconImgInFirstmeetContent,
+  .story2 .firstmeet .firstmeetContent .iconImgInFirstmeetContent {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+  }
+  .story4 .firstmeet .firstmeetContent .iconImgInFirstmeetContent img,
+  .story3 .firstmeet .firstmeetContent .iconImgInFirstmeetContent img,
+  .story2 .firstmeet .firstmeetContent .iconImgInFirstmeetContent img,
+  .story1 .firstmeet .firstmeetContent .iconImgInFirstmeetContent img {
+    width: 120px; /*change*/
+    height: 120px; /*change*/
+    /* opacity: 0.5; */
+  }
+  .empty {
+    width: 40%;
+    display: none; /*adddd*/
+    /* float: left; */ /*#######*/
+    /* background-color: hotpink; */
+    /* height: 400px; */
+  }
+  .FloatRight {
+    float: left; /*change*/
+  }
+  .FloatLeft {
+    float: left;
+  }
+  .ContentRight {
+    text-align: left; /*change*/
+  }
+
+  /* section greeting */
+  .GREETINGS {
+    width: 100%;
+    /* background-color: #050505; */
+  }
+  .GREETINGSize {
+    margin: auto;
+    min-width: 100%; /*change*/
+    width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    overflow: hidden;
+  }
+  .greetingSwper {
+    display: grid; /*change*/
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+    justify-content: space-between;
+  }
+  .greetingSwper > div {
+    width: 100%;
+    margin: 30px 0px; /*change*/
+    background-color: rgb(244, 244, 244);  
+    padding: 30px; /*change*/
+    position: relative;
+  }
+
+  .sender {
+    width: 100%;
+    /* background-color: red; */
+    padding: 10px 0px; /*change*/
+    display: flex;
+  }
+  .senderimg {
+    width: 85px; /*change*/
+    height: 85px; /*chnage*/
+    padding: 5px;
+    /* background-color: rgb(163, 67, 115); */
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .ditels {
+    padding: 10px 20px; /*change*/
+    display: grid;
+    align-items: center; /*change*/
+  }
+  .iconimgONMassagebox {
+    position: absolute;
+    top: -25px;
+    left: 25px;
+    & img {
+      width: 50px;
+      height: 50px;
+      /* background-color: hotpink; */
+      border-radius: 50%;
+    }
+  }
+  .BRIDESMAIDGROOMSMEN {
+    width: 100%;
+  }
+  .BRIDESMAIDGROOMSMENsize {
+    max-width: 100%; /*change*/
+    min-width: 100%; /*change*/
+    width: 100%; /*change*/
+    margin: auto;
+    padding: 0px 20px; /*adddd*/
+  }
+  .familyimges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .familyimges > div {
+    width: 30%;
+    padding: 30px 0px;
+    text-align: center;
+  }
+  .familyimges > div > img {
+    width: 100%;
+  }
+  .familyimges > div > h3 {
+    /* background-color: red; */
+    font-size: 1.5rem; /*change*/
+    font-weight: 500;
+  }
+  .familyimges > div > h6 {
+    padding: 10px 0px;
+    font-size: 0.8rem; /*change*/
+    font-weight: 500; /*add*/
+    color: gray;
+  }
+
+  /* when and whare section******************starttttt */
+  .WhenAndHare {
+    width: 100%;
+  }
+  .WhenAndHareSize {
+    /* background-color: lime; */
+    margin: auto;
+    min-width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    width: 100%;
+    padding: 0px 20px;
+    display: grid; /*change*/
+  }
+  .WhenAndHareSize .location {
+    width: 100%; /**change*/
+    height: 500px; /*add*/
+    /* background-color: blue; */
+  }
+  .planning .GBheader h1 {
+    font-size: 3.8rem; /*add*/
+  }
+  .WhenAndHareSize .planning {
+    width: 100%; /*change*/
+    /* background-color: yellow; */
+    padding: 0px 0px 100px 0px;
+  }
+  .planningFunctionBox {
+    display: flex;
+    text-align: center;
+    padding: 0px 0px;
+  }
+  .planningFunctionBox > div {
+    padding: 0px 15px; /*change*/
+  }
+  .planningFunctionBox > div > h1 {
+    font-weight: 500;
+    font-size: 1.6rem; /*change*/
+  }
+  .planningFunctionBox > div > p {
+    padding: 15px 0px;
+    line-height: 1.8;
+    color: gray;
+  }
+  .planningFunctionBox > div > pre {
+    color: hotpink;
+    padding: 10px 0px 30px 0px;
+  }
+  .planningFunctionBox > div > a {
+    padding: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    /* border: 1px solid hotpink; */
+    /* color: hotpink; */
+  }
+
+  .RSVPsize {
+    width: 100%;
+    height: auto;
+    max-width: 100%; /*change*/
+    min-width: 100%; /*change*/
+    padding: 10px 20px 100px 20px;
+    margin: auto;
+    /* background-color: rgba(0, 0, 255, 0.342); */
+  }
+  form {
+    width: 100%;
+  }
+  .galleryimages > div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    position: relative;
+    width: 50%;
+    height: 350px;
+    overflow: hidden;
+  }
+
+  /* fooooterrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
+  .footerSize {
+    width: 100%; /*change*/
+    max-width: 100%; /*chnage*/
+    min-width: 100%; /*change*/
+    margin: auto;
+    padding: 50px 20px;
+    display: grid; /*change*/
+    justify-content: stretch;
+  }
+  .footerSize > div {
+    /* padding: 50px; */
+    width: 100%;
+    padding: 0px 20px 0px 20px; /*change*/
+    /* background-color: lime; */
+    line-height: 2;
+  }
+
+  .icons {
+    display: flex;
+    /* align-items: center; */
+  }
+  .icons div {
+    background-color: #ffffff;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 50%;
+  }
+  .icons > div:hover {
+    background-color: #1c0c94;
+  }
+  .icons div:hover > i {
+    color: rgb(28, 194, 3);
+    /* text-shadow: 0px 0px 12px rgb(216, 194, 3); */
+  }
+  .footerSize > div > h2 {
+    padding: 20px 0px;
+  }
+  .SERVICES > li,
+  .LINKS > li {
+    list-style: none;
+  }
+  .SERVICES > li::before,
+  .LINKS > li::before {
+    content: "✔";
+    padding: 0px 10px 0px 0px;
+  }
+  /* .HAVE_A_QUESTIONS .locationIcon::before{
+    content: "\f3c5";
+    font-family: "Font Awesome 5 Free";
+  } */
+  .HAVE_A_QUESTIONS > div {
+    display: flex;
+    align-items: center;
+  }
+  .HAVE_A_QUESTIONS > div > i {
+    /* margin: auto 0; */
+    padding: 15px;
+    align-self: baseline;
+  }
+  footer > em {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+  }
+}
+/* ----------------------------------------------------------------------------------- */
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  main {
+    width: 100%;
+    position: relative;
+  }
+  header {
+    /* width: 100%; */
+    min-width: 100%;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: rgb(0, 255, 21);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0; */
+  }
+  .headersize {
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+  nav {
+    display: flex;
+    display: none;
+  }
+  nav a {
+    text-decoration: none;
+    padding: 0% 10px;
+    text-align: center;
+  }
+  .menu {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+  }
+  .homePage {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  .homePageSize {
+    min-width: 100%;
+    max-width: 100%;
+    /* height: fit-content; */
+    min-height: 200px;
+    max-height: 900px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /* background-color: lime; */
+    margin: 0px auto;
+    display: grid;
+    align-items: end;
+    justify-content: center;
+    /* text-align: center; */
+    /* padding: 10% 0px; */
+  }
+  .homePageCenter {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  .homePageRingImg {
+    width: 140px;
+    height: 140px;
+    padding: 20px;
+    margin: auto;
+    
+    border-radius: 50%;
+  }
+  .homePageRingImg img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    /* height: 100px; */
+    border-radius: 50%;
+    border: 1px dotted white;
+  }
+  .LOVERS {
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+  }
+  .homePageCenter > p > span {
+    padding: 3px;
+    background-color: white;
+    letter-spacing: 4px;
+  }
+  /* section2 start------- */
+  /* section 2 start */
+  .remaining {
+    width: 100%; /*change*/
+    /* background-color: red; */
+    position: relative;
+  }
+  .remainingSize {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: -50px;
+    padding: 50px;
+    /* position: relative */
+  }
+  .timebox {
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: rgb(136, 19, 19);
+    display: grid; /*change*/
+    justify-content: stretch; /*change*/
+    padding: 0px 0px 20px 0px; /*add new*/
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: -50px;
+    z-index: 200;
+    position: relative;
+    border-radius: 0px 0px 10px 10px; /*change*/
+  }
+  .timebox::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    /* background-color: red; */
+    border: 1px dashed white;
+    border-radius: 0px 0px 10px 10px; /*change*/
+  }
+  .timeBoxHeading {
+    background-color: lime !important;
+  }
+  .timebox > div {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(136, 19, 19);
+  }
+  .timebox > div > div {
+    font-size: 2rem; /*change*/
+    font-weight: 600;
+  }
+  .timebox > div > div ~ span {
+    letter-spacing: 2px;
+  }
+  /* section 3 groom&bride page------------ */
+  /* section 3 groom&bride page------------ */
+  .GroomAndBridePage {
+    width: 100%;
+    /* background-color: lightslategrey; */
+  }
+  .GroomAndBridePageSize {
+    min-width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    width: 100%;
+    margin: none; /*change*/
+    /* background-color: red; */
+    padding: 10px 20px; /*add*/
+  }
+  .GBheader {
+    width: 100%;
+    
+    text-align: center;
+    padding: 50px 0px;
+    
+  }
+  .GBheader > h3 > span {
+    
+    padding: 3px 4px;
+    letter-spacing: 1px;
+  }
+  .GBheader > h1 {
+    font-size: 3.5rem; /*change*/
+    font-weight: 500;
+  }
+  .loversbio {
+    display: grid; /*change*/
+    /* padding: 30px; */
+  }
+  .GROOM,
+  .bride {
+    width: 100%;
+    /* background-color: yellow; */
+    display: grid;
+    padding: 30px 0px;
+    position: relative; /*add*/
+    /* justify-content: end; */
+    /* align-items: center; */
+    /* overflow: hidden; */
+  }
+  .brideBioBox {
+    padding: 0px 0px 0px 0px; /*change*/
+    text-align: center; /*change*/
+    /*float:right ;*/ /*add*/
+  }
+  .groomBioBox {
+    padding: 0px 0px 0px 0px; /*change*/
+    text-align: center;
+  }
+  .groomBioBox > div,
+  .brideBioBox > div {
+    height: 100%;
+    position: relative;
+    /* float: top; */
+    
+    padding: 0;
+  }
+  .groomBioBox > div > div,
+  .brideBioBox > div > div {
+    display: grid;
+    padding: 30px 0px;
+    align-items: center;
+    height: 100%;
+    vertical-align: middle;
+    /* margin: auto; */
+    /* background-color: yellow; */
+  }
+  .groomname,
+  .bridename {
+    font-size: 2.5rem;
+  }
+  .pra {
+    padding-top: 20px;
+    line-height: 24px;
+  }
+  .iconImg {
+    position: relative;
+    /* background-color: rgba(64, 224, 208, 0.952); */
+    bottom: 0;
+    right: 0;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* overflow: hidden; */
+  }
+  .iconImg2 {
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+  .iconImg2 > img,
+  .iconImg img {
+    width: 100px;
+    height: 100px;
+  }
+  .groomImg,
+  .brideImg {
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: hotpink; */
+    /* border: 20px soild hotpink; */
+  }
+  .groomImg > img,
+  .brideImg > img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    /* border: 20px soild hotpink; */
+  }
+
+  /* //////section4 ourStory Page---------------- */
+  .overStorySize {
+    margin: auto;
+    min-width: 100%; /*change*/
+    width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    /* background-color: lime; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+  }
+  /* start------box - */
+  .timelineHistory {
+    width: 100%;
+    padding: 50px 0px; /*change*/
+    /* background-color: brown; */
+  }
+  .timelineHistory > div,
+  .story1 {
+    width: 100%;
+    /* background-color: lime;   */
+    /* margin-top: 20px; */
+    display: inline-block;
+  }
+  .timelineHistory > div > div,
+  .story1 .firstmeet {
+    width: 100%; /*chnage*/
+    margin-top: 0; /*change*/
+    /* background-color: red; */
+    /*float:;*/ /*#############*/
+    display: inline;
+
+    & .roundImg {
+      /* background-image: url("img/asset 4.jpeg"); */
+      padding: 0px;
+      width: 20%;
+      /* float:; */ /* ##############*/
+      & .imgSmallbox {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        & img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      & .imgSmallbox::after {
+        content: "";
+        position: absolute;
+
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        bottom: 10px;
+        border: 1px dashed white;
+        border-radius: 50%;
+        /* background-color: lime; */
+        z-index: 10;
+      }
+    }
+    & .firstmeetContent {
+      background-color: rgba(254, 254, 254, 0.58);
+      backdrop-filter: blur(5px);
+      margin: 10px 0px;
+      padding: 50px;
+      width: 80%;
+      position: relative;
+
+      & h3 {
+        color: rgb(90, 160, 58);
+        letter-spacing: 2px;
+        font-size: 0.7rem; /*add*/
+      }
+      & h2 {
+        font-size: 2rem; /*change*/
+        color: rgb(144, 13, 13);
+        font-weight: 500;
+        padding: 10px 0px;
+      }
+      & p {
+        color: rgb(68, 68, 68);
+        line-height: 30px;
+      }
+    }
+    & .firstmeetContent::before {
+      content: "";
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      bottom: 20px;
+      /* background-color: lime; */
+      border: 1.5px dashed white;
+      transform: rotate(1deg);
+    }
+  }
+  .story3 .firstmeet .firstmeetContent .iconImgInFirstmeetContent,
+  .story1 .firstmeet .firstmeetContent .iconImgInFirstmeetContent {
+    /* position: absolute; */
+    top: 0px;
+    right: 20px; /*add*/
+    left: auto; /*change*/
+  }
+  .story4 .firstmeet .firstmeetContent .iconImgInFirstmeetContent img,
+  .story3 .firstmeet .firstmeetContent .iconImgInFirstmeetContent img,
+  .story2 .firstmeet .firstmeetContent .iconImgInFirstmeetContent img,
+  .story1 .firstmeet .firstmeetContent .iconImgInFirstmeetContent img {
+    width: 100px; /*change*/
+    height: 100px; /*change*/
+    /* opacity: 0.5; */
+  }
+  .empty {
+    /* width: 40%; */
+    display: none; /*adddd*/
+    /* float: left; */ /*#######*/
+    /* background-color: hotpink; */
+    /* height: 400px; */
+  }
+  .FloatRight {
+    float: left; /*change*/
+  }
+  .FloatLeft {
+    float: left;
+  }
+  .ContentRight {
+    text-align: left; /*change*/
+  }
+
+  /* greeting section *************** */
+  .GREETINGS {
+    width: 100%;
+    /* background-color: #b1c381; */
+  }
+  .GREETINGSize {
+    margin: auto;
+    min-width: 100%; /*change*/
+    width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    overflow: hidden;
+  }
+  .greetingSwper {
+    display: grid; /*change*/
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+    justify-content: space-between;
+  }
+  .greetingSwper > div {
+    width: 100%;
+    margin: 30px 0px; /*change*/
+    background-color: white;
+    padding: 30px; /*change*/
+    position: relative;
+  }
+
+  .sender {
+    width: 100%;
+    /* background-color: red; */
+    padding: 10px 0px; /*change*/
+    display: flex;
+  }
+  .senderimg {
+    width: 85px; /*change*/
+    height: 85px; /*chnage*/
+    padding: 5px;
+    /* background-color: rgb(163, 67, 115); */
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .ditels {
+    padding: 10px 10px; /*change*/
+    display: grid;
+    align-items: center; /*change*/
+  }
+  .iconimgONMassagebox {
+    position: absolute;
+    top: -25px;
+    left: 25px;
+    & img {
+      width: 50px;
+      height: 50px;
+      /* background-color: hotpink; */
+      border-radius: 50%;
+    }
+  }
+  .BRIDESMAIDGROOMSMEN {
+    width: 100%;
+  }
+  .BRIDESMAIDGROOMSMENsize {
+    max-width: 100%; /*change*/
+    min-width: 100%; /*change*/
+    width: 100%; /*change*/
+    margin: auto;
+    padding: 0px 20px; /*adddd*/
+  }
+  .familyimges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .familyimges > div {
+    width: 40%; /*change*/
+    padding: 30px 0px;
+    text-align: center;
+  }
+  .familyimges > div > img {
+    width: 100%;
+  }
+  .familyimges > div > h3 {
+    /* background-color: red; */
+    font-size: 1.5rem; /*change*/
+    font-weight: 500;
+  }
+  .familyimges > div > h6 {
+    padding: 10px 0px;
+    font-size: 1rem; /*change*/
+    color: gray;
+    font-weight: 500;
+  }
+  /* when and whare section******************starttttt */
+  .WhenAndHare {
+    width: 100%;
+  }
+  .WhenAndHareSize {
+    /* background-color: lime; */
+    margin: auto;
+    min-width: 100%; /*change*/
+    max-width: 100%; /*change*/
+    width: 100%;
+    padding: 0px 20px;
+    display: grid; /*change*/
+    overflow: hidden;
+  }
+  .WhenAndHareSize .location {
+    width: 100%; /**change*/
+    height: 500px; /*add*/
+    /* background-color: blue; */
+  }
+  .planning .GBheader h1 {
+    font-size: 2.5rem; /*add*/
+  }
+  .WhenAndHareSize .planning {
+    width: 100%; /*change*/
+    /* background-color: yellow; */
+    padding: 0px 0px 100px 0px;
+  }
+  .planningFunctionBox {
+    display: grid; /*change*/
+    text-align: center;
+    padding: 0px 0px;
+  }
+  .planningFunctionBox > div {
+    padding: 20px 15px; /*change*/
+  }
+  .planningFunctionBox > div > h1 {
+    font-weight: 500;
+    font-size: 1.6rem; /*change*/
+  }
+  .planningFunctionBox > div > p {
+    padding: 15px 0px;
+    line-height: 1.8;
+    color: gray;
+  }
+  .planningFunctionBox > div > pre {
+    /* color: hotpink; */
+    padding: 10px 0px 30px 0px;
+  }
+  .planningFunctionBox > div > a {
+    padding: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid hotpink;
+    /* color: hotpink; */
+  }
+
+  .RSVPsize {
+    width: 100%;
+    height: 100%;
+    max-width: 100%; /*change*/
+    min-width: 100%; /*change*/
+    padding: 10px 20px 100px 20px;
+    margin: auto;
+    /* background-color: rgba(0, 0, 255, 0.342); */
+  }
+  form {
+    width: 100%;
+  }
+
+  .galleryimages > div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  }
+  /* foooter star */
+  footer {
+    width: 100%;
+  }
+  .footerSize {
+    width: 100%;
+    max-width: 100%; /*change*/
+    min-width: 100%; /*change*/
+    margin: auto;
+    padding: 50px 20px;
+    display: grid; /*change*/
+    justify-content: space-between;
+    /* background-color: rgb(214, 214, 214); */
+  }
+  .footerSize > div {
+    /* padding: 50px; */
+    width: 100%;
+    padding: 0px 20px 0px 10px;
+    line-height: 2;
+  }
+
+  .icons {
+    display: flex;
+    /* align-items: center; */
+  }
+  .icons div {
+    /* background-color: #363636; */
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+  }
+  .icons > div:hover {
+    background-color: #940c0c;
+    /* padding: 10px; */
+  }
+  .icons > div >i{
+    width: 15px;
+    height: 15px;
+    font-size: 1.2rem;
+    /* margin: auto; */
+
+  }
+  .icons div:hover > i {
+    color: rgb(28, 194, 3);
+    /* text-shadow: 0px 0px 12px rgb(216, 194, 3); */
+  }
+  .footerSize > div > h2 {
+    padding: 20px 0px;
+  }
+  .SERVICES > li,
+  .LINKS > li {
+    list-style: none;
+  }
+  .SERVICES > li::before,
+  .LINKS > li::before {
+    content: "✔";
+    padding: 0px 10px 0px 0px;
+  }
+  /* .HAVE_A_QUESTIONS .locationIcon::before{
+    content: "\f3c5";
+    font-family: "Font Awesome 5 Free";
+  } */
+  .HAVE_A_QUESTIONS > div {
+    display: flex;
+    align-items: center;
+  }
+  .HAVE_A_QUESTIONS > div > i {
+    /* margin: auto 0; */
+    padding: 15px;
+    align-self: baseline;
+  }
+  footer > em {
+    width: 100%;
+    display: grid;
+    /* background-color:rgb(214, 214, 214) ; */
+    justify-content: center;
+  }
+}
